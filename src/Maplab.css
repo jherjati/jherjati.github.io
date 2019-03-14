@@ -1,0 +1,42 @@
+.firstMap {
+    width: 100%;
+}
+
+.thirdMap {
+    position: relative; 
+    width: 100%;
+    height: 510px;
+}
+
+.fourthMap {
+    width: 100%;
+    height: 510px;
+}
+
+.bottomBar {
+    margin-top: 12px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomBar .indicator {
+    padding: 6px 10px;
+    background-color: white;
+}
+
+.bottomBar button {
+    border: 1px solid #3770c6;
+    background-color: rgb(84, 152, 255);
+    height: 100%;
+    color: white;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+.bottomBar button:hover {
+    background-color: #3770c6;
+}

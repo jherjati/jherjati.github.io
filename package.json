@@ -1,0 +1,25 @@
+{
+  "name": "maplab",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-array": "^1.2.1",
+    "d3-request": "^1.0.6",
+    "d3-scale": "^2.1.0",
+    "immutable": "^3.8.2",
+    "mapbox-gl": "^0.47.0-beta.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-map-gl": "^3.3.0",
+    "react-mapbox-gl": "^3.8.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "slide": "^1.1.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
