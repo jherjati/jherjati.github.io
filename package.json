@@ -2,10 +2,12 @@
   "name": "maplab",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jherjati.github.io",
   "dependencies": {
     "d3-array": "^1.2.1",
     "d3-request": "^1.0.6",
     "d3-scale": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "immutable": "^3.8.2",
     "mapbox-gl": "^0.47.0-beta.1",
     "react": "^16.4.1",
@@ -20,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
